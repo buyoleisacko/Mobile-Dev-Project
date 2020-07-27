@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:context=".MainActivity">
+
+    <EditText
+            android:id="@+id/Edit text"
+            style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:ems="10"
+            android:hint="Enter Your FirstName"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.767"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+            android:id="@+id/editTextTextPersonName"
+            style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:hint="Enter Your Last Name"
+            android:inputType="textPersonName"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.747"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Edit text"
+            tools:visibility="visible" />
+
+    <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginLeft="156dp"
+            android:ems="10"
+            android:hint="Enter Your Email"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="229dp" />
+
+    <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="213dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Enter Your Phone Number"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.787"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="308dp" />
+
+    <EditText
+            android:id="@+id/editTextTextPersonName4"
+            style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="numberSigned|textPersonName|textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.772"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="402dp" />
+
+    <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirm The Password"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.792"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="486dp" />
+
+    <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="SIGN UP"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="596dp" />
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="229dp" />
+
+    <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/stat_sys_phone_call"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="315dp" />
+
+    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="68dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="63dp"
+            android:layout_height="65dp"
+            app:srcCompat="@android:drawable/ic_partial_secure"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="498dp" />
+
+    <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="58dp"
+            android:layout_height="103dp"
+            app:srcCompat="@android:drawable/ic_partial_secure"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="383dp" />
+
+</android.support.constraint.ConstraintLayout>
